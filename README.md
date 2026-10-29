@@ -1,53 +1,91 @@
-# 💰 FinanPro — Sistema de Gestão Financeira Empresarial
+<div align="center">
 
-O **FinanPro** é um sistema de gestão financeira desenvolvido para facilitar o controle e a organização financeira de empresas. A plataforma reúne as principais ferramentas financeiras em um único lugar, com uma interface moderna, intuitiva e responsiva.
+# 💼 FinanPro
 
-## 🎯 Objetivo
+### Todo o financeiro da empresa em *um só painel*
 
-Simplificar a gestão financeira empresarial, permitindo acompanhar receitas, despesas, pagamentos, recebimentos e fluxo de caixa, além de identificar possíveis problemas financeiros por meio de alertas automáticos.
+Plataforma web de *gestão financeira empresarial* com contas a pagar e a receber, fluxo de caixa, DRE gerencial e alertas automáticos, em tema claro e escuro.
 
-## ✨ Funcionalidades
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-f5a623?style=for-the-badge)
 
-- 📊 **Dashboard financeiro:** visão geral da situação financeira da empresa.
-- 💸 **Contas a pagar:** controle de despesas, vencimentos e pagamentos.
-- 💵 **Contas a receber:** acompanhamento de recebimentos e valores pendentes.
-- 📈 **Fluxo de caixa:** monitoramento de entradas, saídas e saldo financeiro.
-- 🧾 **Faturamento:** organização das vendas e dos serviços prestados.
-- 👥 **Clientes e fornecedores:** cadastro e gerenciamento de informações.
-- 🔔 **Alertas financeiros:** notificações sobre saldo negativo, vencimentos e riscos financeiros.
-- 📑 **Relatórios:** acompanhamento dos resultados e movimentações financeiras.
-- 🔐 **Autenticação:** cadastro de usuários, login e verificação de e-mail.
-- 🏢 **Cadastro empresarial:** gerenciamento dos dados da empresa.
-- 🌙 **Modo claro e escuro:** interface adaptável à preferência do usuário.
-- 📝 **CRUD completo:** criação, consulta, atualização e exclusão de registros.
+<br>
 
-## 🛠️ Tecnologias
 
-Tecnologias planejadas para o desenvolvimento:
+</div>
 
-- React
-- TypeScript
-- Tailwind CSS
-- Supabase
-- PostgreSQL
+---
 
-*As tecnologias e funcionalidades serão atualizadas conforme a implementação do projeto.*
+## ✨ Por que o FinanPro?
 
-## 🚀 Objetivos do projeto
+Pequenas e médias empresas costumam controlar o dinheiro em planilhas soltas: uma para contas a pagar, outra para vendas, outra para o caixa. O resultado é pouca visibilidade e decisões no escuro.
 
-- Desenvolver uma aplicação financeira funcional.
-- Aplicar conceitos de desenvolvimento web e banco de dados.
-- Implementar operações CRUD.
-- Trabalhar com autenticação e segurança de dados.
-- Criar uma interface simples, moderna e acessível.
-- Desenvolver recursos para auxiliar na tomada de decisões financeiras.
+O *FinanPro* reúne tudo em uma única plataforma, do lançamento diário à visão consolidada do mês, e ainda *avisa sozinho* quando algo merece atenção, sempre sugerindo a próxima ação.
 
-## 📌 Status do projeto
+> 🚧 *Projeto em desenvolvimento.* Novas funcionalidades e melhorias chegam aos poucos. Sugestões são muito bem-vindas!
 
-🚧 Em desenvolvimento.
+## 🚀 Destaques
 
-## 👩‍💻 Desenvolvedora
+| | Funcionalidade | O que entrega |
+|---|---|---|
+| 📊 | *Dashboard* | Saldo consolidado, receitas, despesas e resultado do período em cartões diretos, com projeção de saldo para *7, 15 e 30 dias* |
+| 💸 | *Contas a pagar e a receber* | Busca, filtros por status e por fornecedor/cliente, destaque de vencidos e baixa de pagamentos |
+| 🔄 | *Fluxo de caixa* | Realizado × projetado, por período e por conta |
+| 🧾 | *DRE gerencial* | Receita bruta, deduções, despesas operacionais e resultado líquido, gerados dos lançamentos reais |
+| 🚨 | *Alertas automáticos* | *8 regras* monitoradas continuamente, cada alerta com uma ação recomendada |
+| 📁 | *Relatórios* | Exportação dos principais relatórios em *Excel e PDF* |
+| 🌗 | *Tema claro e escuro* | Alternância em qualquer tela, para trabalhar de dia ou à noite |
+| 🔐 | *Acesso seguro* | Login com e-mail corporativo, recuperação de senha, perfis com papéis e senhas protegidas com hash |
 
-**Ana Beatriz Ferrari Mustafé**
+*11 módulos financeiros integrados:* Dashboard, Contas a Pagar, Contas a Receber, Receitas e Despesas, Fluxo de Caixa, Faturamento e Vendas, Clientes, Fornecedores, Contas Financeiras, Relatórios Gerenciais e Alertas Automáticos.
 
-Projeto desenvolvido com foco em tecnologia, programação e soluções para a gestão empresarial.
+## 🚨 Alertas financeiros automáticos
+
+O sistema monitora continuamente:
+
+- Saldo negativo
+- Risco de caixa nos próximos 7 dias
+- Contas vencidas
+- Vencimentos próximos
+- Recebimentos atrasados
+- Despesas elevadas
+- Queda no faturamento
+- Baixa liquidez
+
+</div>
+
+
+
+</details>
+
+> Os dados exibidos são *fictícios, da empresa de demonstração *TecnoVale Tech & Inovação.
+
+## 🧰 Tecnologias
+
+- **[TypeScript](https://www.typescriptlang.org/)** de ponta a ponta
+- **[Node.js](https://nodejs.org/)** + **[Express](https://expressjs.com/)**: API REST sob /api, com limite de payload configurado e endpoint de saúde para monitoramento
+- **[Vite](https://vitejs.dev/)**: em modo middleware no desenvolvimento e build estático servido pelo Express em produção
+- **[bcryptjs](https://github.com/dcodeIO/bcrypt.js)**: hash de senhas
+- **[dotenv](https://github.com/motdotla/dotenv)**: variáveis de ambiente
+- **[Render](https://render.com/)**: deploy
+
+Se o projeto te ajudou ou te inspirou, deixe uma ⭐ no repositório. Isso incentiva muito!
+
+## 🎓 Sobre o projeto
+
+O FinanPro foi desenvolvido durante a *Imersão da Alura, com apoio do **Google AI Studio* como parceiro de desenvolvimento, e segue em evolução como projeto de estudo e portfólio.
+
+## 👩‍💻 Autora
+
+*Ana Beatriz Ferrari Mustafé*
+Estudante de Análise e Desenvolvimento de Sistemas
+
+[![GitHub](https://img.shields.io/badge/GitHub-beatrizmustafe-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/beatrizmustafe)
+
+<div align="center">
+<sub>Feito com 💙 por Ana Beatriz</sub>
+</div>
