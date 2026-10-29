@@ -1,0 +1,8 @@
+# 1. Entrar na pasta do projeto
+cd FinanPro-main
+
+# 2. Instalar as dependências
+npm install
+
+# 3. Iniciar o sistema
+npm run dev
