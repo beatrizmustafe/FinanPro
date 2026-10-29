@@ -79,6 +79,17 @@ Se o projeto te ajudou ou te inspirou, deixe uma ⭐ no repositório. Isso incen
 
 O FinanPro foi desenvolvido durante a *Imersão da Alura, com apoio do **Google AI Studio* como parceiro de desenvolvimento, e segue em evolução como projeto de estudo e portfólio.
 
+## Código para rodar no VScode
+
+# 1. Entrar na pasta do projeto
+cd FinanPro-main
+
+# 2. Instalar as dependências
+npm install
+
+# 3. Iniciar o sistema
+npm run dev
+
 ## 👩‍💻 Autora
 
 *Ana Beatriz Ferrari Mustafé*
